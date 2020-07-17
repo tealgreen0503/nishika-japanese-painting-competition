@@ -123,8 +123,6 @@ HeapDict==1.0.1
 holidays==0.9.12
 html5lib==1.0.1
 httpimport==0.5.18
-httplib2==0.17.4
-httplib2shim==0.0.3
 humanize==0.5.1
 hyperopt==0.1.2
 ideep4py==2.0.0.post3
@@ -199,7 +197,6 @@ nbconvert==5.6.1
 nbformat==5.0.7
 networkx==2.4
 nibabel==3.0.2
-notebook==5.2.2
 np-utils==0.5.12.1
 numba==0.48.0
 numexpr==2.7.1
@@ -277,7 +274,6 @@ python-slugify==4.0.0
 python-utils==2.4.0
 pytz==2018.9
 PyWavelets==1.1.1
-PyYAML==3.13
 pyzmq==19.0.1
 qtconsole==4.7.5
 QtPy==1.9.0
