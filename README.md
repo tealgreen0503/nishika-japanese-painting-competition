@@ -35,7 +35,7 @@
 ## 最終順位
 ### Public Score
 - 1位
-
+![Public Score](images/public_score.png)
 
 ### Private Score
 - 2位
