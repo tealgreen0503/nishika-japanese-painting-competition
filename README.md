@@ -1,16 +1,8 @@
 # 日本絵画に描かれた人物の顔分類に機械学習で挑戦！ 2nd place solution
-
-## 動作環境
-- Google Colaboratory上での動作を前提
-  - ただしGPUが"Tesla P100-PCIE-16GB"でないとCUDA out of momoryとなる
-
-## 実行手順
-- "training_model_1.ipynb" ~ "training_model_3.ipynb" を実行し，"inference_and_ensemble.ipynb"を実行
-  - 学習済みモデルは全て同じ場所に保存されるため，一つのノートブックを実行するたびに学習した重みを別の場所に退避させる
-- outputディレクトリに"submission_emsemble_tta.csv"が作成される
+- https://www.nishika.com/competitions/5/
 
 ## モデル概要
-- 学習済みモデルとして以下を使用
+- pretrained models
   - EfficientNet B7 (seed=42, https://github.com/lukemelas/EfficientNet-PyTorch)
   - EfficientNet B7 Noisy Student (seed=43, https://github.com/rwightman/pytorch-image-models)
   - EfficientNet B8 (seed=44, https://github.com/rwightman/pytorch-image-models)
@@ -39,4 +31,11 @@
   - w/ HorizontalFlip
 - ensemble
   - モデル3種とTTA2パターンの合計6つのモデルでアンサンブル
-  - 出力の単純平均をとる
+ 
+## 最終順位
+### Public Score
+- 1位
+
+
+### Private Score
+- 2位
