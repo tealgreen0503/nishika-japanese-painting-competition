@@ -39,3 +39,4 @@
 
 ### Private Score
 - 2位
+![Private Score](images/private_score.png)
